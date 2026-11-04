@@ -1,0 +1,70 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "*",
+		"android": "*",
+		"mac": "*",
+		"ios": "*"
+	},
+	"id": "user.auto-deco",
+	"name": "Auto Deco",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Editorde tek tusla otomatik dekorasyon: Aqua, Hell, Heaven, Yellow Light, Green Bullet.",
+	"settings": {
+		"per-object": {
+			"name": "Obje basina dekor",
+			"description": "Her kaynak objenin etrafina kac dekor eklensin.",
+			"type": "int",
+			"default": 3,
+			"min": 1,
+			"max": 12,
+			"control": {
+				"input": true,
+				"slider": true
+			}
+		},
+		"max-sources": {
+			"name": "Maksimum kaynak obje",
+			"description": "Tek seferde en fazla kac objeye dekor eklensin (editor donmasin diye).",
+			"type": "int",
+			"default": 300,
+			"min": 10,
+			"max": 3000,
+			"control": {
+				"input": true,
+				"slider": true
+			}
+		},
+		"aqua-ids": {
+			"name": "Aqua obje ID'leri",
+			"description": "Virgulle ayir. Ornek: 1,40,147",
+			"type": "string",
+			"default": "1,2,3,40,147"
+		},
+		"hell-ids": {
+			"name": "Hell obje ID'leri",
+			"description": "Virgulle ayir. Ornek: 1,40,147",
+			"type": "string",
+			"default": "1,2,3,40,147"
+		},
+		"heaven-ids": {
+			"name": "Heaven obje ID'leri",
+			"description": "Virgulle ayir. Ornek: 1,40,147",
+			"type": "string",
+			"default": "1,2,3,40,147"
+		},
+		"yellow-ids": {
+			"name": "Yellow Light obje ID'leri",
+			"description": "Virgulle ayir. Ornek: 1,40,147",
+			"type": "string",
+			"default": "1,2,3,40,147"
+		},
+		"green-ids": {
+			"name": "Green Bullet obje ID'leri",
+			"description": "Virgulle ayir. Ornek: 1,40,147",
+			"type": "string",
+			"default": "1,2,3,40,147"
+		}
+	}
+}
