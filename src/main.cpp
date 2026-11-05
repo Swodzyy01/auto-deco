@@ -115,7 +115,7 @@ class $modify(AutoDecoEditorUI, EditorUI) {
         auto obj = m_editorLayer->createObject(899, pos, false); // 899 = Color trigger
         if (!obj) return;
         if (auto t = typeinfo_cast<EffectGameObject*>(obj)) {
-            t->m_targetColorID = channel;
+            t->m_targetGroupID = channel;
             t->m_triggerTargetColor = color;
             t->m_duration = 0.f;
         }
